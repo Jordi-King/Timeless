@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>BookNest Shop</title>
+    <link rel="stylesheet" href="cart.css" />
+    <script src="cart.js"></script>
+  </head>
+  <body>
+    <div class="bgimage"></div>
+
+    <!-- Navigation Bar -->
+    <nav class="navigation">
+      <h1>Your Cart</h1>
+
+      <div class="NAVbuttons">
+        <a id="home" href="product.html">Home</a>
+        <a id="about" href="">About</a>
+        <a id="cart" href="cart.html">Cart</a>
+        <a id="logout" href="index.html">Logout</a>
+      </div>
+    </nav>
+    <div class="items" id="cartItems"></div>
+
+    <div class="total">
+      <h2>Total: $<span id="cart-total">0.00</span></h2>
+      <button id="checkout">Proceed to Checkout</button>
+    </div>
+  </body>
+</html>

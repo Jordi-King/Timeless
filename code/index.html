@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0"
+    />
+    <title>BookNest Login</title>
+    <link rel="stylesheet" href="/Code/index.css" />
+    <script src="/Code/index.js"></script>
+  </head>
+  <body>
+    <div class="bgimage"></div>
+    <div id="container">
+      <h1 id="heading">Welcome to Timeless.</h1>
+
+      <div class="Login">
+        <form id="loginform" onsubmit="validateuserlogin(event)">
+          <label id="loginheading">Login Form</label>
+          <br /><br />
+          <input
+            placeholder="Username"
+            type="text"
+            id="Username"
+            name="Username"
+            writingsuggestions="true"
+            required
+          />
+          <br /><br />
+          <input
+            placeholder="Password"
+            type="password"
+            id="password"
+            name="password"
+            writingsuggestions="true"
+            required
+          />
+          <br /><br />
+          <input
+            placeholder="Email"
+            type="email"
+            id="email"
+            name="email"
+            writingsuggestions="true"
+          />
+          <br /><br />
+          <label for="remember">Remeber me?</label>
+          <input type="checkbox" name="remember" id="remember" />
+          <br /><br />
+          <input
+            id="loginbtn"
+            class="loginbtn"
+            type="submit"
+            value="Login"
+          />
+        </form>
+      </div>
+    </div>
+  </body>
+</html>

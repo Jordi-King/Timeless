@@ -79,16 +79,11 @@ h1:hover {
 }
 
 .cart-item {
-  background: rgba(
-    255,
-    255,
-    255,
-    0.521
-  ); /* Light background for cart items */
-  border: 0px solid rgba(209, 130, 12, 0.5); /* Border matching theme color */
+  background: rgba(255, 255, 255, 0.521);
+  border: 0px solid rgba(209, 130, 12, 0.5);
   border-radius: 8px;
   padding: 15px;
-  margin: 10px 0; /* Spacing between items */
+  margin: 10px 0;
   width: 700px;
   transition: transform ease-in 200ms;
 }
@@ -116,11 +111,7 @@ h1:hover {
 
 button {
   padding: 10px 20px;
-  background-color: rgb(
-    209,
-    130,
-    12
-  ); /* Match button with your theme */
+  background-color: rgb(209, 130, 12);
   color: white;
   border: none;
   border-radius: 5px;

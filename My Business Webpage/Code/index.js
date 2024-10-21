@@ -33,9 +33,9 @@ function addtocart(price, name) {
   const newItem = { name, price }
   cartItems.push(newItem)
 
-  // Save the updated cart items back to localStorage
+  // Save th updated cart items back to localStorage
   localStorage.setItem("cartItems", JSON.stringify(cartItems))
 
-  // Optionally, display a message or update the UI
+  // display a message or update the UI
   alert(`${name} added to cart!`)
 }
